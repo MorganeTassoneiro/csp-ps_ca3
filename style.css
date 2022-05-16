@@ -7,7 +7,7 @@ body {
 }
 
 div {
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 #main {
@@ -16,7 +16,7 @@ div {
 }
 
 .title {
-  font-weight: 800;
+  font-size: 1.5rem;;
 }
 
 .editable {
@@ -36,13 +36,13 @@ div {
 }
 
 .editing:hover {
-  background: white !important;
+  background: rgb(255, 254, 254) !important;
 }
 
 .card {
   font-family: 'Libre Franklin', sans-serif;
   background: white;
-  border-bottom: 1px solid rgb(19, 17, 17);
+  border-bottom: 5px solid rgb(19, 17, 17);
 }
 
 .list {
@@ -50,7 +50,7 @@ div {
   min-width: 280px;
   margin: 10px 5px;
   position: relative;
-  background: #dfe1e6;
+  background: #ddc3de;
 }
 
 
@@ -73,7 +73,7 @@ div {
   display: inline-block;
   padding: 10px;
   margin-top: 0px;
-  color: gray;
+  color: rgb(138, 119, 138);
   text-decoration: none;
 /*   border-bottom: 1px solid #dfe1e6; */
 }
@@ -84,5 +84,5 @@ div {
 
 .del {
   font-weight: 600;
-  color: gray;
+  color: rgb(110, 99, 113);
 }
